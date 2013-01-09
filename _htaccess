@@ -1,0 +1,7 @@
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+ErrorDocument 500 errno/500.htm
+ErrorDocument 404 errno/404.htm

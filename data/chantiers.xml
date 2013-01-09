@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<chantiers>
+	<chantier>		
+		<nom>Atelier</nom>
+		<parent></parent>
+		<pa>25</pa>
+		<defense>0</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "10" nom = "Planche tordue"></ressource>
+		<ressource nombre = "8" nom = "Ferraille"></ressource>
+		<ressource nombre = "1" nom = "Pavés de béton informes"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Registre du chantier</nom>
+		<parent>Atelier</parent>
+		<pa>15</pa>
+		<defense>0</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "1" nom = "Table Järpen"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Boucherie</nom>
+		<parent>Atelier</parent>
+		<pa>40</pa>
+		<defense>0</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "9" nom = "Planche tordue"></ressource>
+		<ressource nombre = "4" nom = "Ferraille"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Crémato-Cue</nom>
+		<parent>Boucherie</parent>
+		<pa>45</pa>
+		<defense>0</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "8" nom = "Poutre rafistolée"></ressource>
+		<ressource nombre = "1" nom = "Structures métalliques"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Fixations de défenses</nom>
+		<parent>Atelier</parent>
+		<pa>50</pa>
+		<defense>5</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "7" nom = "Poutre rafistolée"></ressource>
+		<ressource nombre = "8" nom = "Structures métalliques"></ressource>
+		<ressource nombre = "6" nom = "Poignée de vis et écrous"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Manufacture</nom>
+		<parent>Atelier</parent>
+		<pa>40</pa>
+		<defense>0</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "5" nom = "Poutre rafistolée"></ressource>
+		<ressource nombre = "5" nom = "Structures métalliques"></ressource>
+		<ressource nombre = "3" nom = "Poignée de vis et écrous"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Scies hurlantes</nom>
+		<parent>Atelier</parent>
+		<pa>65</pa>
+		<defense>40</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "5" nom = "Ferraille"></ressource>
+		<ressource nombre = "2" nom = "Structures métalliques"></ressource>
+		<ressource nombre = "3" nom = "Poignée de vis et écrous"></ressource>
+		<ressource nombre = "3" nom = "Rustine"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Potence</nom>
+		<parent>Atelier</parent>
+		<pa>13</pa>
+		<defense>0</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "1" nom = "Poutre rafistolée"></ressource>
+		<ressource nombre = "1" nom = "Grosse chaîne rouillée"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Monticules à canons</nom>
+		<parent>Atelier</parent>
+		<pa>50</pa>
+		<defense>10</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "7" nom = "Poutre rafistolée"></ressource>
+		<ressource nombre = "1" nom = "Structures métalliques"></ressource>
+		<ressource nombre = "1" nom = "Pavés de béton informes"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Lance-tôle</nom>
+		<parent>Monticules à canons</parent>
+		<pa>35</pa>
+		<defense>50</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "5" nom = "Poutre rafistolée"></ressource>
+		<ressource nombre = "1" nom = "Structures métalliques"></ressource>
+		<ressource nombre = "5" nom = "Poignée de vis et écrous"></ressource>
+		<ressource nombre = "3" nom = "Plaque de tôle"></ressource>
+		<ressource nombre = "3" nom = "Explosifs bruts"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Perforeuse</nom>
+		<parent>Monticules à canons</parent>
+		<pa>30</pa>
+		<defense>45</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "10" nom = "Structures métalliques"></ressource>
+		<ressource nombre = "4" nom = "Poignée de vis et écrous"></ressource>
+		<ressource nombre = "1" nom = "Tube de cuivre"></ressource>
+		<ressource nombre = "1" nom = "Composant électronique"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Canon à briques</nom>
+		<parent>Monticules à canons</parent>
+		<pa>30</pa>
+		<defense>60</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "5" nom = "Poutre rafistolée"></ressource>
+		<ressource nombre = "5" nom = "Structures métalliques"></ressource>
+		<ressource nombre = "3" nom = "Pavés de béton informes"></ressource>
+		<ressource nombre = "2" nom = "Tube de cuivre"></ressource>
+		<ressource nombre = "1" nom = "Composant électronique"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Tourniquet à poutres</nom>
+		<parent>Monticules à canons</parent>
+		<pa>15</pa>
+		<defense>12</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "2" nom = "Poutre rafistolée"></ressource>
+		<ressource nombre = "1" nom = "Structures métalliques"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Portail</nom>
+		<parent></parent>
+		<pa>12</pa>
+		<defense>2</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "2" nom = "Ferraille"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Piston-Verrou</nom>
+		<parent>Portail</parent>
+		<pa>25</pa>
+		<defense>15</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "10" nom = "Planche tordue"></ressource>
+		<ressource nombre = "3" nom = "Structures métalliques"></ressource>
+		<ressource nombre = "4" nom = "Poignée de vis et écrous"></ressource>
+		<ressource nombre = "1" nom = "Tube de cuivre"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Blindage d'entrée</nom>
+		<parent>Portail</parent>
+		<pa>35</pa>
+		<defense>12</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "3" nom = "Planche tordue"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Fondations</nom>
+		<parent>30</parent>
+		<pa>30</pa>
+		<defense>0</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "8" nom = "Planche tordue"></ressource>
+		<ressource nombre = "5" nom = "Ferraille"></ressource>
+		<ressource nombre = "2" nom = "Pavés de béton informes"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Fausse ville</nom>
+		<parent>Fondations</parent>
+		<pa>600</pa>
+		<defense>210</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "20" nom = "Planche tordue"></ressource>
+		<ressource nombre = "20" nom = "Poutre rafistolée"></ressource>
+		<ressource nombre = "25" nom = "Ferraille"></ressource>
+		<ressource nombre = "10" nom = "Poignée de vis et écrous"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Derrick artisanal</nom>
+		<parent>Fondations</parent>
+		<pa>170</pa>
+		<defense>0</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "15" nom = "Poutre rafistolée"></ressource>
+		<ressource nombre = "15" nom = "Structures métalliques"></ressource>
+		<ressource nombre = "3" nom = "Pavés de béton informes"></ressource>
+		<ressource nombre = "4" nom = "Tube de cuivre"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Le grand déménagement</nom>
+		<parent>Fondations</parent>
+		<pa>800</pa>
+		<defense>180</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "15" nom = "Poutre rafistolée"></ressource>
+		<ressource nombre = "7" nom = "Structures métalliques"></ressource>
+		<ressource nombre = "5" nom = "Pavés de béton informes"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Robinetterie</nom>
+		<parent>Fondations</parent>
+		<pa>130</pa>
+		<defense>0</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "6" nom = "Poutre rafistolée"></ressource>
+		<ressource nombre = "10" nom = "Ferraille"></ressource>
+		<ressource nombre = "3" nom = "Structures métalliques"></ressource>
+		<ressource nombre = "4" nom = "Poignée de vis et écrous"></ressource>
+		<ressource nombre = "1" nom = "Moteur"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Pompe</nom>
+		<parent></parent>
+		<pa>25</pa>
+		<defense>0</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "8" nom = "Ferraille"></ressource>
+		<ressource nombre = "1" nom = "Tube de cuivre"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Aqua-tourelles</nom>
+		<parent>Pompe</parent>
+		<pa>60</pa>
+		<defense>60</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "10" nom = "Structures métalliques"></ressource>
+		<ressource nombre = "60" nom = "Ration d'eau"></ressource>
+		<ressource nombre = "1" nom = "Tube de cuivre"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Purificateur d'eau</nom>
+		<parent>Pompe</parent>
+		<pa>50</pa>
+		<defense>0</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "5" nom = "Planche tordue"></ressource>
+		<ressource nombre = "6" nom = "Ferraille"></ressource>
+		<ressource nombre = "1" nom = "Tube de cuivre"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Potager</nom>
+		<parent>Purificateur d'eau</parent>
+		<pa>60</pa>
+		<defense>0</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "10" nom = "Poutre rafistolée"></ressource>
+		<ressource nombre = "10" nom = "Ration d'eau"></ressource>
+		<ressource nombre = "1" nom = "Produits pharmaceutiques"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Champ de mines à eau</nom>
+		<parent>Purificateur d'eau</parent>
+		<pa>25</pa>
+		<defense>75</defense>
+		<temporaire>1</temporaire>
+		<ressource nombre = "3" nom = "Ferraille"></ressource>
+		<ressource nombre = "20" nom = "Ration d'eau"></ressource>
+		<ressource nombre = "1" nom = "Explosifs bruts"></ressource>
+		<ressource nombre = "1" nom = "Détonateur compact"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Réseau Hydraulique</nom>
+		<parent>Pompe</parent>
+		<pa>40</pa>
+		<defense>0</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "5" nom = "Ferraille"></ressource>
+		<ressource nombre = "5" nom = "Structures métalliques"></ressource>
+		<ressource nombre = "2" nom = "Tube de cuivre"></ressource>
+		<ressource nombre = "5" nom = "Poignée de vis et écrous"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Arroseurs Automatiques</nom>
+		<parent>Réseau Hydraulique</parent>
+		<pa>50</pa>
+		<defense>95</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "7" nom = "Poutre rafistolée"></ressource>
+		<ressource nombre = "15" nom = "Structures métalliques"></ressource>
+		<ressource nombre = "20" nom = "Ration d'eau"></ressource>
+		<ressource nombre = "1" nom = "Tube de cuivre"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Sani-broyeur</nom>
+		<parent>Réseau Hydraulique</parent>
+		<pa>55</pa>
+		<defense>45</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "2" nom = "Poutre rafistolée"></ressource>
+		<ressource nombre = "10" nom = "Structures métalliques"></ressource>
+		<ressource nombre = "2" nom = "Plaque de tôle"></ressource>
+		<ressource nombre = "2" nom = "Tube de cuivre"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Vaporisateur de rue</nom>
+		<parent>Réseau Hydraulique</parent>
+		<pa>50</pa>
+		<defense>50</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "10" nom = "Planche tordue"></ressource>
+		<ressource nombre = "7" nom = "Structures métalliques"></ressource>
+		<ressource nombre = "1" nom = "Poignée de vis et écrous"></ressource>
+		<ressource nombre = "10" nom = "Ration d'eau"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Foreuse pour le Puits</nom>
+		<parent>Pompe</parent>
+		<pa>60</pa>
+		<defense>0</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "7" nom = "Poutre rafistolée"></ressource>
+		<ressource nombre = "2" nom = "Structures métalliques"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Projet Eden</nom>
+		<parent>Foreuse pour le Puits</parent>
+		<pa>65</pa>
+		<defense>0</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "5" nom = "Poutre rafistolée"></ressource>
+		<ressource nombre = "8" nom = "Structures métalliques"></ressource>
+		<ressource nombre = "5" nom = "Explosifs bruts"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Tour de guet</nom>
+		<parent></parent>
+		<pa>12</pa>
+		<defense>3</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "3" nom = "Planche tordue"></ressource>
+		<ressource nombre = "2" nom = "Ferraille"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Carte Améliorée</nom>
+		<parent>Tour de guet</parent>
+		<pa>15</pa>
+		<defense>0</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "1" nom = "Ferraille"></ressource>
+		<ressource nombre = "1" nom = "Pile"></ressource>
+		<ressource nombre = "1" nom = "Composant électronique"></ressource>
+		<ressource nombre = "2" nom = "Radio K7"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Catapulte Primitive</nom>
+		<parent>Tour de guet</parent>
+		<pa>40</pa>
+		<defense>0</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "2" nom = "Planche tordue"></ressource>
+		<ressource nombre = "1" nom = "Poutre rafistolée"></ressource>
+		<ressource nombre = "1" nom = "Ferraille"></ressource>
+		<ressource nombre = "1" nom = "Structures métalliques"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Scrutateur</nom>
+		<parent>Tour de guet</parent>
+		<pa>30</pa>
+		<defense>0</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "3" nom = "Poutre rafistolée"></ressource>
+		<ressource nombre = "1" nom = "Structures métalliques"></ressource>
+		<ressource nombre = "1" nom = "Composant électronique"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Scanner</nom>
+		<parent>Tour de guet</parent>
+		<pa>20</pa>
+		<defense>0</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "1" nom = "Poignée de vis et écrous"></ressource>
+		<ressource nombre = "1" nom = "Composant électronique"></ressource>
+		<ressource nombre = "2" nom = "Radio K7"></ressource>
+		<ressource nombre = "2" nom = "Pile"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Planificateur</nom>
+		<parent>Scanner</parent>
+		<pa>20</pa>
+		<defense>0</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "1" nom = "Composant électronique"></ressource>
+		<ressource nombre = "1" nom = "Rustine"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Dispositifs d'urgence</nom>
+		<parent>Tour de guet</parent>
+		<pa>40</pa>
+		<defense>5</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "5" nom = "Planche tordue"></ressource>
+		<ressource nombre = "7" nom = "Ferraille"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Guérilla</nom>
+		<parent>Dispositifs d'urgence</parent>
+		<pa>24</pa>
+		<defense>45</defense>
+		<temporaire>1</temporaire>
+		<ressource nombre = "2" nom = "Planche tordue"></ressource>
+		<ressource nombre = "1" nom = "Ferraille"></ressource>
+		<ressource nombre = "2" nom = "Poignée de vis et écrous"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Piège à loups</nom>
+		<parent>Dispositifs d'urgence</parent>
+		<pa>20</pa>
+		<defense>45</defense>
+		<temporaire>1</temporaire>
+		<ressource nombre = "2" nom = "Ferraille"></ressource>
+		<ressource nombre = "3" nom = "Viande humaine"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Dynamitage</nom>
+		<parent>Dispositifs d'urgence</parent>
+		<pa>20</pa>
+		<defense>35</defense>
+		<temporaire>1</temporaire>
+		<ressource nombre = "3" nom = "Explosifs bruts"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Tas de détritus</nom>
+		<parent>Dispositifs d'urgence</parent>
+		<pa>10</pa>
+		<defense>10</defense>
+		<temporaire>1</temporaire>
+		<ressource nombre = "2" nom = "Planche tordue"></ressource>
+		<ressource nombre = "2" nom = "Ferraille"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Mont-pointu</nom>
+		<parent>Tas de détritus</parent>
+		<pa>40</pa>
+		<defense>50</defense>
+		<temporaire>1</temporaire>
+		<ressource nombre = "2" nom = "Ferraille"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Renforts d'urgence</nom>
+		<parent>Dispositifs d'urgence</parent>
+		<pa>30</pa>
+		<defense>40</defense>
+		<temporaire>1</temporaire>
+		<ressource nombre = "8" nom = "Planche tordue"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Champs piégés</nom>
+		<parent>Dispositifs d'urgence</parent>
+		<pa>12</pa>
+		<defense>25</defense>
+		<temporaire>1</temporaire>
+		<ressource nombre = "6" nom = "Planche tordue"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Renforts de muraille</nom>
+		<parent></parent>
+		<pa>30</pa>
+		<defense>7</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "6" nom = "Planche tordue"></ressource>
+		<ressource nombre = "4" nom = "Ferraille"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Barbelés</nom>
+		<parent>Renforts de muraille</parent>
+		<pa>20</pa>
+		<defense>9</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "2" nom = "Ferraille"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Appâts</nom>
+		<parent>Barbelés</parent>
+		<pa>10</pa>
+		<defense>10</defense>
+		<temporaire>1</temporaire>
+		<ressource nombre = "1" nom = "Os charnu"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Barrières</nom>
+		<parent>Renforts de muraille</parent>
+		<pa>50</pa>
+		<defense>25</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "5" nom = "Poutre rafistolée"></ressource>
+		<ressource nombre = "5" nom = "Poignée de vis et écrous"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Grand Fossé</nom>
+		<parent>Renforts de muraille</parent>
+		<pa>80</pa>
+		<defense>20</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "8" nom = "Planche tordue"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Fosse à pieux</nom>
+		<parent>Grand Fossé</parent>
+		<pa>60</pa>
+		<defense>50</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "20" nom = "Planche tordue"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Douves</nom>
+		<parent>Grand Fossé</parent>
+		<pa>50</pa>
+		<defense>45</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "20" nom = "Ration d'eau"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Râpe à zombies</nom>
+		<parent>Renforts de muraille</parent>
+		<pa>60</pa>
+		<defense>75</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "20" nom = "Ferraille"></ressource>
+		<ressource nombre = "3" nom = "Plaque de tôle"></ressource>
+		<ressource nombre = "5" nom = "Poignée de vis et écrous"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Oubliettes</nom>
+		<parent>Renforts de muraille</parent>
+		<pa>65</pa>
+		<defense>30</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "15" nom = "Planche tordue"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Muraille rasoir</nom>
+		<parent>Renforts de muraille</parent>
+		<pa>40</pa>
+		<defense>40</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "15" nom = "Ferraille"></ressource>
+		<ressource nombre = "5" nom = "Poignée de vis et écrous"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Remparts avancés</nom>
+		<parent>Renforts de muraille</parent>
+		<pa>40</pa>
+		<defense>5</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "9" nom = "Poutre rafistolée"></ressource>
+		<ressource nombre = "6" nom = "Structures métalliques"></ressource>
+		<ressource nombre = "6" nom = "Poignée de vis et écrous"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Grogro Mur</nom>
+		<parent>Remparts avancés</parent>
+		<pa>50</pa>
+		<defense>70</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "10" nom = "Planche tordue"></ressource>
+		<ressource nombre = "15" nom = "Poutre rafistolée"></ressource>
+		<ressource nombre = "10" nom = "Structures métalliques"></ressource>
+		<ressource nombre = "2" nom = "Pavés de béton informes"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Poutres de renfort</nom>
+		<parent>Remparts avancés</parent>
+		<pa>55</pa>
+		<defense>25</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "1" nom = "Poutre rafistolée"></ressource>
+		<ressource nombre = "3" nom = "Structures métalliques"></ressource>
+		<ressource nombre = "2" nom = "Poignée de vis et écrous"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Seconde couche</nom>
+		<parent>Remparts avancés</parent>
+		<pa>65</pa>
+		<defense>70</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "25" nom = "Planche tordue"></ressource>
+		<ressource nombre = "5" nom = "Structures métalliques"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Muraille évolutive</nom>
+		<parent>Remparts avancés</parent>
+		<pa>65</pa>
+		<defense>15</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "5" nom = "Planche tordue"></ressource>
+		<ressource nombre = "20" nom = "Ferraille"></ressource>
+		<ressource nombre = "1" nom = "Pavés de béton informes"></ressource>
+	</chantier>
+	<chantier>		
+		<nom>Muraille à pointes</nom>
+		<parent>Remparts avancés</parent>
+		<pa>35</pa>
+		<defense>50</defense>
+		<temporaire>0</temporaire>
+		<ressource nombre = "2" nom = "Poutre rafistolée"></ressource>
+		<ressource nombre = "15" nom = "Ferraille"></ressource>
+		<ressource nombre = "4" nom = "Poignée de vis et écrous"></ressource>
+	</chantier>
+</chantiers>

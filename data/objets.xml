@@ -1,0 +1,2670 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<objets>
+	<objet>
+		<nom>Ration d'eau</nom>
+		<image>water</image>
+		<categorie>Food</categorie>
+		<valeur>5</valeur>
+		<chantiers>1</chantiers>
+		<pa>6</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>1</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Nouilles chinoises épicées</pour>
+			<avec>Nouilles chinoises</avec>
+			<avec>Epices fortes</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Pavés de béton informes</pour>
+			<avec>Sac de ciment</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Bombe à Eau</pour>
+			<avec>Sac en plastique</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Bombe à eau explosive</pour>
+			<avec>Sac plastique + explosif</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Aqua-splash (5 charges)</pour>
+			<avec>Aqua-splash (démonté)</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Pistolet à Eau (3 charges)</pour>
+			<avec>Pistolet à Eau (vide)</avec>
+		</utilisation>
+		<utilisation>
+			<avec>Bonbonne d'eau (vide)</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Ration d'eau</pour>
+			<avec>Fiole de poison</avec>
+		</utilisation>
+		<note>A consommer chaque jour, pour les expéditeurs, ou un jour sur deux pour les ouvriers. Lorsqu'on n'a pas bu la veille, on change d'état. Les états sont les suivants : normal, soif, deshydraté, mort. En expédition, l'ordre de consommation est important : si l'on part en ayant soif, on consomme l'eau après les 6 premiers PA, et avant la nourriture, sinon, on la consomme en dernier. L'eau peut aussi être utilisée pour remplir des armes (pistolets, aqua-splash et sacs plastique), mais il est préférable de remplir ces armes avec la robinetterie. On ne trouve pas de ration d'eau dans le désert, mais les jerrycan peuvent être versés dans le puits, afin d'avoir plus d'eau. Il y a 2 moyens de créer une ration d'eau : en utilisant le puits, ou en activant le pouvoir héro "trouvaille". Le puits permet de prendre 1 ration d'eau par jour et par citoyen, 2 si la pompe est construite.</note>
+	</objet>
+	<objet>
+		<nom>Pile</nom>
+		<image>pile</image>
+		<categorie>Rsc</categorie>
+		<valeur>2</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Café brûlant</pour>
+			<avec>Cafetière</avec>
+			<avec>Produits pharmaceutiques</avec>
+			<avec>Souche de bois pourrie</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Petit manche vibrant</pour>
+			<avec>Petit manche vibrant (éteint)</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Sport-Elec (chargé)</pour>
+			<avec>Sport-Elec (éteint)</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Batteur électrique (chargé)</pour>
+			<avec>Batteur électrique (vide)</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Devastator (chargé)</pour>
+			<avec>Devastator (vide)</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Lance-Pile 1-PDTG (chargé)</pour>
+			<avec>Lance-Pile 1-PDTG (vide)</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Lance-Pile Mark II (chargé)</pour>
+			<avec>Lance-Pile Mark II (vide)</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Taser d'auto-défense (chargé)</pour>
+			<avec>Taser d'auto-défense (éteint)</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Tronçonneuse</pour>
+			<avec>Tronçonneuse éteinte</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Lampe de chevet allumée</pour>
+			<avec>Lampe de chevet éteinte</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Petite chaine HiFi allumée</pour>
+			<avec>Petite chaîne Hi-Fi éteinte</avec>
+			<avec>Composant électronique</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Radio K7</pour>
+			<avec>Radio K7 éteint</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Balise Radius Mark II</pour>
+			<avec>Balise Radius Mark II déchargée</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Fiole de poison</pour>
+			<avec>Produit corrosif</avec>
+			<avec>Produits pharmaceutiques</avec>
+		</utilisation>
+		<note>Les piles permettent d'activer certains objets afin de pouvoir les utiliser. Elles s'assemblent avec ces objets. Une pile est généralement consommée à la première utilisation de l'objet qu'elle a permis d'activer (p. ex. PMV, sport-elec, etc.), mais ce n'est pas toujours le cas (p. ex. tronçonneuse). Les piles peuvent également être utilisées comme des munitions pour certaines armes (les lances-piles) ; elles sont alors consommées immédiatement. Enfin, les piles peuvent être assemblées avec des objets pour produire un consommable (p. ex. le café).</note>
+	</objet>
+	<objet>
+		<nom>Tournevis</nom>
+		<image>screw</image>
+		<categorie>Weapon</categorie>
+		<valeur>3</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>1</arme>
+		<cassable>1</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Boîte de Conserve ouverte</pour>
+			<avec>Boîte de Conserve</avec>
+		</utilisation>
+		<utilisation>
+			<avec>Boîte en métal</avec>
+		</utilisation>
+		<utilisation>
+			<avec>Caisse de matériel</avec>
+		</utilisation>
+		<utilisation>
+			<avec>Caisse de nourriture</avec>
+		</utilisation>
+		<utilisation>
+			<avec>Gros coffre en métal</avec>
+		</utilisation>
+		<note>Le tournevis peut être utilisé comme une arme, mais il est plus judicieux de le conserver afin d'ouvrir certains conteneurs (boîte en métal, par exemple).</note>
+	</objet>
+	<objet>
+		<nom>Canif dérisoire</nom>
+		<image>small_knife</image>
+		<categorie>Weapon</categorie>
+		<valeur>3</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>1</arme>
+		<cassable>1</cassable>
+		<maison>1</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour></pour>
+			<avec>Caisse de matériel</avec>
+		</utilisation>
+		<utilisation>
+			<pour></pour>
+			<avec>Caisse de nourriture</avec>
+		</utilisation>
+		<note>Le canif peut être utilisé comme une arme, mais il est plus judicieux de l'utiliser la dans construction de la cuisine niveau 2.</note>
+	</objet>
+	<objet>
+		<nom>Ouvre-boîte</nom>
+		<image>can_opener</image>
+		<categorie>Weapon</categorie>
+		<valeur>2</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>1</arme>
+		<cassable>1</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Boîte de Conserve ouverte</pour>
+			<avec>Boîte de Conserve</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Boîte en métal</pour>
+		</utilisation>
+		<utilisation>
+			<pour>Caisse de matériel</pour>
+		</utilisation>
+		<utilisation>
+			<pour>Caisse de nourriture</pour>
+		</utilisation>
+		<utilisation>
+			<pour>Gros coffre en métal</pour>
+		</utilisation>
+		<note>L'ouvre-boîte peut être utilisé comme une arme, mais il est plus judicieux de le conserver afin d'ouvrir certains conteneurs (nourriture, par exemple).</note>
+	</objet>
+	<objet>
+		<nom>Boîte d'allumettes</nom>
+		<image>lights</image>
+		<categorie>Misc</categorie>
+		<valeur>4</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<avec>Paquet de cigarettes entamé</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Torche</pour>
+			<avec>Souche de bois pourrie</avec>
+		</utilisation>
+		<note>La boîte d'allumettes permet d'allumer une souche de bois pourrie afin de la transformer en torche, un objet de défense, ou d'allumer un paquet de cigarettes afin de soigner la terreur. La boîte entière est consommée à la première utilisation.</note>
+	</objet>
+	<objet>
+		<nom>Matelas</nom>
+		<image>bed</image>
+		<categorie>Armor</categorie>
+		<valeur>5</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>1</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>1</maison>
+		<encombrant>1</encombrant>
+		<danger>0</danger>
+		<note>Le matelas est un objet de défense, mais il peut aussi être utilisé dans la construction du coin-sieste niveau 3.</note>
+	</objet>
+	<objet>
+		<nom>Moteur</nom>
+		<image>engine</image>
+		<categorie>Misc</categorie>
+		<valeur>4</valeur>
+		<chantiers>1</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>1</cassable>
+		<maison>0</maison>
+		<encombrant>1</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Tronçonneuse éteinte</pour>
+			<avec>Poignée de vis et écrous</avec>
+			<avec>Courroie</avec>
+			<avec>Rustine</avec>
+			<avec>Tronçonneuse incomplète</avec>
+		</utilisation>
+		<note>Le moteur est utile pour construire la robinetterie, ou pour assembler certaines armes rares (tronçonneuse). Les moteurs cassés peuvent être réparés, avec un os charnu (ressource rare), mais il est souvent plus intéressant d'attendre d'en trouver un qui soit déjà en étant de marche.</note>
+	</objet>
+	<objet>
+		<nom>Courroie</nom>
+		<image>courroie</image>
+		<categorie>Rsc</categorie>
+		<valeur>2</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Devastator (chargé)</pour>
+			<avec>Devastator incomplet</avec>
+			<avec>Poignée de vis et écrous</avec>
+			<avec>Pile</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Tronçonneuse éteinte</pour>
+			<avec>Tronçonneuse incomplète</avec>
+			<avec>Rustine</avec>
+			<avec>Moteur</avec>
+			<avec>Poignée de vis et écrous</avec>
+		</utilisation>
+		<utilisation>
+			<pour>VTT</pour>
+			<avec>VTT sans guidon</avec>
+			<avec>Tube de cuivre</avec>
+			<avec>Poignée de vis et écrous</avec>
+		</utilisation>
+		<note>La courroie est utilisée dans l'assemblage de certaines armes rares.</note>
+	</objet>
+	<objet>
+		<nom>Poignée de vis et écrous</nom>
+		<image>meca_parts</image>
+		<categorie>Rsc</categorie>
+		<valeur>5</valeur>
+		<chantiers>1</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>VTT</pour>
+			<avec>VTT sans guidon</avec>
+			<avec>Courroie</avec>
+			<avec>Tube de cuivre</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Moteur</pour>
+			<avec>Moteur incomplet</avec>
+			<avec>Rustine</avec>
+			<avec>Ferraille</avec>
+			<avec>Détonateur compact</avec>
+			<avec>Os humain</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Tondeuse à gazon</pour>
+			<avec>Tondeuse démontée</avec>
+			<avec>Ferraille</avec>
+			<avec>Rustine</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Batteur électrique (chargé)</pour>
+			<avec>Batteur électrique incomplet</avec>
+			<avec>Rustine</avec>
+			<avec>Composant électronique</avec>
+			<avec>Pile</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Devastator (chargé)</pour>
+			<avec>Devastator incomplet</avec>
+			<avec>Courroie</avec>
+			<avec>Pile</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Lance-Pile Mark II (chargé)</pour>
+			<avec>Calibrateur PDTT Mark II</avec>
+			<avec>Lance-Pile 1-PDTG (vide)</avec>
+			<avec>Rustine</avec>
+			<avec>Composant électronique</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Tronçonneuse</pour>
+			<avec>Tronçonneuse incomplète</avec>
+			<avec>Rustine</avec>
+			<avec>Courroie</avec>
+			<avec>Moteur</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Portière de voiture</pour>
+			<avec>Portière de voiture incomplète</avec>
+			<avec>Rustine</avec>
+			<avec>Ferraille</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Kit de bricolage</pour>
+			<avec>Rustine</avec>
+			<avec>Planche tordue</avec>
+			<avec>Outils en vrac</avec>
+		</utilisation>
+		<note>La poignée de vis et écrous est une des ressources les plus importantes du jeu. Elle doit toujours être ramenée en ville, car elle est utile à la construction de nombreux chantiers, ainsi qu'à l'assemblage d'objets utiles. On trouve beaucoup de de vis dans certains bâtiments, comme le silo. On en trouve aussi, parfois, en désassemblant à l'atelier des appareils électroniques en panne ou des mécanismes.</note>
+	</objet>
+	<objet>
+		<nom>Stéroïdes Anabolisants</nom>
+		<image>drug</image>
+		<categorie>Drug</categorie>
+		<valeur>5</valeur>
+		<chantiers>0</chantiers>
+		<pa>6</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>1</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>1</danger>
+		<note>Cette drogue permet de regagner 6 PA. Les stéroïdes peuvent être produits au laboratoire (amélioration de la maison) à partir de 2 produits pharmaceutiques. La deuxième utilisation rend dépendant, ce qui oblige à consommer un drogue par jour jusqu'à la fin de la ville.</note>
+	</objet>
+		<objet>
+		<nom>Viande indéfinissable</nom>
+		<image>undef</image>
+		<categorie>Food</categorie>
+		<valeur>2</valeur>
+		<chantiers>0</chantiers>
+		<pa>6</pa>
+		<defense>0</defense>
+		<transformable>1</transformable>
+		<assemblable>0</assemblable>
+		<consommable>1</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Viande indéfinissable</pour>
+			<avec>Fiole de poison</avec>
+		</utilisation>
+		<note>Cette nourriture est obtenue en découpant à la boucherie certains animaux courants, tels que la poule ou le rat. Le découpage fournit en général entre 2 et 4 morceaux de viande, qui sont placés dans le coffre personnel de la personne qui découpe l'animal.</note>
+	</objet>
+	<objet>
+		<nom>Planche tordue</nom>
+		<image>wood2</image>
+		<categorie>Rsc</categorie>
+		<valeur>1</valeur>
+		<chantiers>1</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>1</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>1</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Plaque de bois solide</pour>
+			<avec>Morceau de caisse</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Kit de bricolage</pour>
+			<avec>Poignée de vis et écrous</avec>
+			<avec>Rustine</avec>
+			<avec>Outils en vrac</avec>
+		</utilisation>
+		<note>La planche tordue est une des ressource de base du jeu. Elle permet de construire de nombreux chantiers, ainsi que des améliorations de la maison (coin sieste niveau 2, par exemple). La planche s'obtient dans le désert et à l'atelier. Il est préférable de ne pas ramener de planche lors des expéditions, puisqu'elles peuvent être fabriquées pour 1 PA à l'atelier. Les planches peuvent être converties, à l'atelier, en souche de bois pourri ou en poutre rafistolée.</note>
+	</objet>
+	<objet>
+		<nom>Ferraille</nom>
+		<image>metal</image>
+		<categorie>Rsc</categorie>
+		<valeur>1</valeur>
+		<chantiers>1</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>1</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>1</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Tondeuse à gazon</pour>
+			<avec>Poignée de vis et écrous</avec>
+			<avec>Rustine</avec>
+			<avec>Tondeuse démontée</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Portière de voiture</pour>
+			<avec>Portière de voiture incomplète</avec>
+			<avec>Rustine</avec>
+			<avec>Poignée de vis et écrous</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Caddie</pour>
+			<avec>Caddie bancal</avec>
+			<avec>Rustine</avec>
+			<avec>Tube de cuivre</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Cafetière incomplète</pour>
+			<avec>Cyanure</avec>
+			<avec>Poignée de vis et écrous</avec>
+			<avec>Rustine</avec>
+			<avec>Tube de cuivre</avec>
+			<avec>Composant électronique</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Moteur</pour>
+			<avec>Moteur incomplet</avec>
+			<avec>Poignée de vis et écrous</avec>
+			<avec>Rustine</avec>
+			<avec>Détonateur compact</avec>
+			<avec>Os Humain</avec>
+		</utilisation>
+		<note>La ferraille est une des ressource de base du jeu. Elle permet de construire de nombreux chantiers, ainsi que des améliorations de la maison. La ferraille s'obtient dans le désert et à l'atelier. Il est préférable de ne pas ramener de ferraille lors des expéditions, puisqu'elles peuvent être fabriquées pour 1 PA à l'atelier. Les ferrailles peuvent être converties, à l'atelier, en débris métallique ou en structure métallique.</note>
+	</objet>
+	<objet>
+		<nom>Plaque de tôle</nom>
+		<image>plate</image>
+		<categorie>Armor</categorie>
+		<valeur>5</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>1</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>1</encombrant>
+		<danger>0</danger>
+		<note>La plâque de tôle est un objet de défense résultant de la transformation, à l'atelier, des Pièces de tôle brutes. Elle est également utilisée dans certains chantiers de défense.</note>
+	</objet>
+	<objet>
+		<nom>Bandage rudimentaire</nom>
+		<image>bandage</image>
+		<categorie>Drug</categorie>
+		<valeur>3</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>1</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>Le bandage permet de soigner l'état blessé qui résulte soit d'une utilisation su sport-elec, soit de la fuite d'une case contrôlée par les zombies dans le désert. Il est préférable de les réserver au sport-elec.</note>
+	</objet>
+	<objet>
+		<nom>Explosifs bruts</nom>
+		<image>explo</image>
+		<categorie>Rsc</categorie>
+		<valeur>2</valeur>
+		<chantiers>1</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Sac plastique + explosif</pour>
+			<avec>Sac en plastique</avec>
+			<avec>Rustine</avec>
+			<avec>Détonateur compact</avec>
+		</utilisation>
+		<note>Les explosifs sont utile à la construction de certains chantiers, et notamment des chantiers temporaires. Ils permettent également de faire des bombes à eau avancées, mais ils sont trop rare pour pouvoir être utilisés comme des consommables.</note>
+	</objet>
+		<objet>
+		<nom>Sac en plastique</nom>
+		<image>grenade_empty</image>
+		<categorie>Weapon</categorie>
+		<valeur>1</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Sac plastique + explosif</pour>
+			<avec>Explosifs bruts</avec>
+			<avec>Rustine</avec>
+			<avec>Détonateur compact</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Bombe à Eau</pour>
+			<avec>Ration d'eau</avec>
+		</utilisation>
+		<note>Le sac plastique peut être assemblé avec une ration d'eau et une rustine afin de faire une bombe à eau qui peut tuer entre 2 et 4 zombies. Toutefois, il est préférable d'attendre la construction de la robinetterie, qui permet de transformer les sacs plastique en bombe à eau sans consommer d'autre objet.</note>
+	</objet>
+	<objet>
+		<nom>Sac plastique + explosif</nom>
+		<image>bgrenade_empty</image>
+		<categorie>Weapon</categorie>
+		<valeur>1</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Bombe à eau explosive</pour>
+			<avec>Ration d'eau</avec>
+		</utilisation>
+		<note>Version évoluée de la bombe à eau. On en trouve dans le désert. Il est préférable de ne pas utiliser de ration d'eau pour les assembler.</note>
+	</objet>
+	<objet>
+		<nom>Bombe à Eau</nom>
+		<image>grenade</image>
+		<categorie>Weapon</categorie>
+		<valeur>1</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>1</consommable>
+		<utilisable>1</utilisable>
+		<arme>1</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>Tue entre 1 et 4 zombies. Disparaît après utilisation.</note>
+	</objet>
+	<objet>
+		<nom>Bombe à eau explosive</nom>
+		<image>bgrenade</image>
+		<categorie>Weapon</categorie>
+		<valeur>1</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>1</consommable>
+		<utilisable>1</utilisable>
+		<arme>1</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>Tue entre 5 et 10 zombies. Disparaît après utilisation.</note>
+	</objet>
+	<objet>
+		<nom>Bonbonne d'eau (vide)</nom>
+		<image>water_can_empty</image>
+		<categorie>Misc</categorie>
+		<valeur>1</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>1</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Bonbonne d'eau (3 rations)</pour>
+			<avec>Ration d'eau</avec>
+		</utilisation>
+		<note>La bonbonne peut contenir jusqu'à 3 rations d'eau. Pour remplir la bonbonne, il faut l'avoir dans son inventaire, ainsi qu'une ration d'eau. L'utiliser a alors pour effet de lui rajouter une ration d'eau. L'utiliser une deuxième fois permet de consommer une des rations d'eau qu'elle contient.</note>
+	</objet>
+	<objet>
+		<nom>Bonbonne d'eau (1 ration)</nom>
+		<image>water_can_1</image>
+		<categorie>Misc</categorie>
+		<valeur>1</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>1</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Bonbonne d'eau (3 rations)</pour>
+			<avec>Ration d'eau</avec>
+		</utilisation>
+		<note>La bonbonne peut contenir jusqu'à 3 rations d'eau. Pour remplir la bonbonne, il faut l'avoir dans son inventaire, ainsi qu'une ration d'eau. L'utiliser a alors pour effet de lui rajouter une ration d'eau. L'utiliser une deuxième fois permet de consommer une des rations d'eau qu'elle contient.</note>
+	</objet>
+	<objet>
+		<nom>Bonbonne d'eau (2 rations)</nom>
+		<image>water_can_2</image>
+		<categorie>Misc</categorie>
+		<valeur>1</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>1</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Bonbonne d'eau (3 rations)</pour>
+			<avec>Ration d'eau</avec>
+		</utilisation>
+		<note>La bonbonne peut contenir jusqu'à 3 rations d'eau. Pour remplir la bonbonne, il faut l'avoir dans son inventaire, ainsi qu'une ration d'eau. L'utiliser a alors pour effet de lui rajouter une ration d'eau. L'utiliser une deuxième fois permet de consommer une des rations d'eau qu'elle contient.</note>
+	</objet>
+	<objet>
+		<nom>Bonbonne d'eau (3 rations)</nom>
+		<image>water_can_empty</image>
+		<categorie>Misc</categorie>
+		<valeur>1</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>1</encombrant>
+		<danger>0</danger>
+		<note>La bonbonne peut contenir jusqu'à 3 rations d'eau. Pour remplir la bonbonne, il faut l'avoir dans son inventaire, ainsi qu'une ration d'eau. L'utiliser a alors pour effet de lui rajouter une ration d'eau. L'utiliser une deuxième fois permet de consommer une des rations d'eau qu'elle contient.</note>
+	</objet>
+	<objet>
+		<nom>Rustine</nom>
+		<image>rustine</image>
+		<categorie>Rsc</categorie>
+		<valeur>1</valeur>
+		<chantiers>1</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Sac plastique + explosif</pour>
+			<avec>Explosifs bruts</avec>
+			<avec>Détonateur compact</avec>
+			<avec>Sac en plastique</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Tondeuse à gazon</pour>
+			<avec>Tondeuse démontée</avec>
+			<avec>Poignée de vis et écrous</avec>
+			<avec>Ferraille</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Batteur électrique (chargé)</pour>
+			<avec>Batteur électrique incomplet</avec>
+			<avec>Composant électronique</avec>
+			<avec>Poignée de vis et écrous</avec>
+			<avec>Pile</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Lance-Pile Mark II (vide)</pour>
+			<avec>Calibrateur PDTT Mark II</avec>
+			<avec>Lance-Pile 1-PDTG (vide)</avec>
+			<avec>Poignée de vis et écrous</avec>
+			<avec>Composant électronique</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Pompe à Jerrycan (prête)</pour>
+			<avec>Jerrycan</avec>
+			<avec>Pompe à Jerrycan (démontée)</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Tronçonneuse éteinte</pour>
+			<avec>Tronçonneuse incomplète</avec>
+			<avec>Courroie</avec>
+			<avec>Moteur</avec>
+			<avec>Poignée de vis et écrous</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Portière de voiture</pour>
+			<avec>Portière de voiture incomplète</avec>
+			<avec>Ferraille</avec>
+			<avec>Poignée de vis et écrous</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Caddie</pour>
+			<avec>Caddie bancal</avec>
+			<avec>Tube de cuivre</avec>
+			<avec>Ferraille</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Bombe Pulvérine</pour>
+			<avec>Poudre-comète brute</avec>
+			<avec>Sac plastique</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Kit de bricolage</pour>
+			<avec>Poignée de vis et écrous</avec>
+			<avec>Planche tordue</avec>
+			<avec>Outils en vrac</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Scie à métaux</pour>
+			<avec>Scie à métaux abimée</avec>
+			<avec>Poignées de vis et écrous</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Cafetière</pour>
+			<avec>Cafetière incomplète</avec>
+			<avec>Poignée de vis et écrous</avec>
+			<avec>Composant électronique</avec>
+			<avec>Tube de cuivre</avec>
+			<avec>Cyanure</avec>
+			<avec>Ferraille</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Moteur</pour>
+			<avec>Moteur incomplet</avec>
+			<avec>Poignée de vis et écrous</avec>
+			<avec>Ferraille</avec>
+			<avec>Détonateur compact</avec>
+			<avec>Os humain </avec>
+		</utilisation>
+		<note>la rustine est utile à l'assemblage de certains objets, tels que la cafetière ou certaines armes rares.</note>
+	</objet>
+	<objet>
+		<nom>Tube de cuivre</nom>
+		<image>tube</image>
+		<categorie>Rsc</categorie>
+		<valeur>3</valeur>
+		<chantiers>1</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Caddie</pour>
+			<avec>Caddie bancal</avec>
+			<avec>Rustine</avec>
+			<avec>Ferraille</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Cafetière</pour>
+			<avec>Cafetière incomplète</avec>
+			<avec>Poignée de vis et écrous</avec>
+			<avec>Rustine</avec>
+			<avec>Composant électronique</avec>
+			<avec>Ferraille</avec>
+			<avec>Cyanure</avec>
+		</utilisation>
+		<utilisation>
+			<pour>VTT</pour>
+			<avec>VTT sans guidon</avec>
+			<avec>Courroie</avec>
+			<avec>Poignée de vis et écrous</avec>
+		</utilisation>
+		<note>le tube de cuivre est utile à l'assemblage de certains objets, comme les armes rares, et à la construction de certains chantiers (les chantiers à eau). Îl s'agit d'une ressource précieuse.</note>
+	</objet>
+	<objet>
+		<nom>Twinoïde 500mg</nom>
+		<image>drug_hero</image>
+		<categorie>Drug</categorie>
+		<valeur>5</valeur>
+		<chantiers>0</chantiers>
+		<pa>8</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>1</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>1</danger>
+		<note>Cette drogue permet de regagner 8 PA. C'est à ce titre le meilleur "power-up" du jeu. La Twin peut être produite au laboratoire (amélioration de la maison) à partir de 2 produits pharmaceutiques. La deuxième utilisation rend dépendant, ce qui oblige à consommer un drogue par jour jusqu'à la fin de la ville.</note>
+	</objet>
+	<objet>
+		<nom>Fiole de poison</nom>
+		<image>poison</image>
+		<categorie>Misc</categorie>
+		<valeur>4</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>1</danger>
+		<note>Permet d'empoisonner de l'eau, une nourriture ou une drogue. Pour savoir si un consommable est empoisonné, il suffit de passer sa souris dessus et de regarder le pop-up d'informations : si la dernière ligne avertit qu'on ne peut consommer l'objet qu'une seule fois par jour (dans le cas de l'eau et de la nourriture), c'est qu'il n'est pas empoisonné.</note>
+	</objet>
+	<objet>
+		<nom>Produit corrosif</nom>
+		<image>poison_part</image>
+		<categorie>Misc</categorie>
+		<valeur>2</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Poison</pour>
+			<avec>Produits pharmaceutiques</avec>
+			<avec>Pile</avec>
+		</utilisation>
+		<note>Permet de fabriquer du poison.</note>
+	</objet>
+	<objet>
+		<nom>Cafetière</nom>
+		<image>coffee_machine</image>
+		<categorie>Misc</categorie>
+		<valeur>4</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Café brûlant</pour>
+			<avec>Produits pharmaceutiques</avec>
+			<avec>Pile</avec>
+			<avec>Souche de bois pourrie</avec>
+		</utilisation>
+		<note>Permet de fabriquer du café.</note>
+	</objet>
+	<objet>
+		<nom>Produits pharmaceutiques</nom>
+		<image>pharma</image>
+		<categorie>Drug</categorie>
+		<valeur>4</valeur>
+		<chantiers>1</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Twinoïde 500mg</pour>
+			<avec>Produits pharmaceutiques</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Hydratone</pour>
+			<avec>Produits pharmaceutiques</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Médicament sans étiquette</pour>
+			<avec>Produits pharmaceutiques</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Paracétoïde 7g</pour>
+			<avec>Produits pharmaceutiques</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Piqure de calmant</pour>
+			<avec>Produits pharmaceutiques</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Stéroïdes Anabolisants</pour>
+			<avec>Produits pharmaceutiques</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Fiole de poison</pour>
+			<avec>Produit corrosif</avec>
+			<avec>Pile</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Café brûlant</pour>
+			<avec>Cafetière</avec>
+			<avec>Pile</avec>
+			<avec>Souche de bois pourrie</avec>
+		</utilisation>
+		<note>Les produits pharmaceutiques constituent une ressource très importante. Ils interviennent d'abord dans la construction du potager. Mais surtout, ils permettent de fabriquer du café et des drogues. L'assemblage de 2 produits génère une drogue, choisie aléatoirement parmi les différentes drogues disponibles dans le jeu (Twin, Stéroïdes, Calmant, Paracétoïde, Médicaments sans étiquette, Micropur effervescent, Hydratone). Toutefois, assemblés dans un laboratoire (amélioration de la maison), la chance de produire une Twin est plus importante (30%, 60% et 90% selon le niveau d'amélioration du laboratoire).</note>
+	</objet>
+	<objet>
+		<nom>Radio K7 éteint</nom>
+		<image>radio_off</image>
+		<categorie>Misc</categorie>
+		<valeur>1</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Radio K7</pour>
+			<avec>Pile</avec>
+		</utilisation>
+		<note>Cet objet s'assemble avec une pile. Il intervient alors dans la construction de certains chantiers (scanner, planificateur, etc.). Il ne donne aucun point de décoration, même assemblée avec une pile. On en trouve très fréquemment dans le "paquet" de départ des citoyens.</note>
+	</objet>
+	<objet>
+		<nom>Radio K7</nom>
+		<image>radio</image>
+		<categorie>Misc</categorie>
+		<valeur>1</valeur>
+		<chantiers>1</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>Cet objet résulte de l'assemblage du Radio KT (éteint) avec une pile. Il intervient dans la construction de certains chantiers (scanner, planificateur, etc.). Il ne donne aucun point de décoration.</note>
+	</objet>
+	<objet>
+		<nom>Composant électronique</nom>
+		<image>electro</image>
+		<categorie>Misc</categorie>
+		<valeur>3</valeur>
+		<chantiers>1</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>1</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Cafetière</pour>
+			<avec>Cafetière incomplète</avec>
+			<avec>Poignée de vis et écrous</avec>
+			<avec>Rustine</avec>
+			<avec>Tube de cuivre</avec>
+			<avec>Cyanure</avec>
+			<avec>Ferraille</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Batteur électrique (chargé)</pour>
+			<avec>Batteur électrique incomplet</avec>
+			<avec>Rustine</avec>
+			<avec>Poignée de vis et écrous</avec>
+			<avec>Pile</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Lance-Pile Mark II (vide)</pour>
+			<avec>Calibrateur PDTT Mark II</avec>
+			<avec>Lance-Pile 1-PDTG (vide)</avec>
+			<avec>Poignée de vis et écrous</avec>
+			<avec>Rustine</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Petite chaîne Hi-Fi éteinte</pour>
+			<avec>Pile</avec>
+		</utilisation>
+		<note>Le composant électronique intervient dans la construction de certains chantiers et dans l'assemblage d'armes rares.</note>
+	</objet>
+	<objet>
+		<nom>Vieille porte</nom>
+		<image>door</image>
+		<categorie>Armor</categorie>
+		<valeur>5</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>1</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>1</maison>
+		<encombrant>1</encombrant>
+		<danger>0</danger>
+		<note>La veille porte est un objet de défense, à ramener en priorité. Elle intervient également dans l'amélioration de la maison.</note>
+	</objet>
+	<objet>
+		<nom>Pistolet à Eau (vide)</nom>
+		<image>watergun_empty</image>
+		<categorie>Weapon</categorie>
+		<valeur>3</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Pistolet à Eau (3 charges)</pour>
+			<avec>Ration d'eau</avec>
+		</utilisation>
+		<note>Le pistolet à eau est une arme à 3 coups, qui permet de tuer 3 zombies. Il se remplit soit à la robinetterie soit par assemblage avec une ration d'eau.</note>
+	</objet>
+	<objet>
+		<nom>Pistolet à Eau (1 charge)</nom>
+		<image>watergun_1</image>
+		<categorie>Weapon</categorie>
+		<valeur>3</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Pistolet à Eau (3 charges)</pour>
+			<avec>Ration d'eau</avec>
+		</utilisation>
+		<note>Le pistolet à eau est une arme à 3 coups, qui permet de tuer 3 zombies. Il se remplit soit à la robinetterie soit par assemblage avec une ration d'eau.</note>
+	</objet>
+	<objet>
+		<nom>Pistolet à Eau (2 charges)</nom>
+		<image>watergun_2</image>
+		<categorie>Weapon</categorie>
+		<valeur>3</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Pistolet à Eau (3 charges)</pour>
+			<avec>Ration d'eau</avec>
+		</utilisation>
+		<note>Le pistolet à eau est une arme à 3 coups, qui permet de tuer 3 zombies. Il se remplit soit à la robinetterie soit par assemblage avec une ration d'eau.</note>
+	</objet>
+	<objet>
+		<nom>Pistolet à Eau (3 charges)</nom>
+		<image>watergun_3</image>
+		<categorie>Weapon</categorie>
+		<valeur>3</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>Le pistolet à eau est une arme à 3 coups, qui permet de tuer 3 zombies. Il se remplit soit à la robinetterie soit par assemblage avec une ration d'eau.</note>
+	</objet>
+	<objet>
+		<nom>Lance-Pile 1-PDTG (vide)</nom>
+		<image>pilegun_empty</image>
+		<categorie>Weapon</categorie>
+		<valeur>1</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Lance-Pile 1-PDTG (chargé)</pour>
+			<avec>Pile</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Lance-Pile Mark II (vide)</pour>
+			<avec>Calibrateur PDTT Mark II</avec>
+			<avec>Composant électronique</avec>
+			<avec>Poignée de vis et écrous</avec>
+			<avec>Rustine</avec>
+		</utilisation>
+		<note>Le lance-pile est une arme peu rentable, qui permet (parfois) de tuer un zombie lorsqu'il est assemblé avec une pile. La pile est inutilisable après le tir.</note>
+	</objet>
+	<objet>
+		<nom>Sport-Elec (éteint)</nom>
+		<image>sport_elec_empty</image>
+		<categorie>Misc</categorie>
+		<valeur>3</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Sport-Elec (chargé)</pour>
+			<avec>Pile</avec>
+		</utilisation>
+		<note>le sport-élec s'assemble avec une pile. Il permet alors de regagner 5 PA, au prix d'une blessure (v. "bandage")</note>
+	</objet>
+	<objet>
+		<nom>Balise « Radius »</nom>
+		<image>tagger</image>
+		<categorie>Misc</categorie>
+		<valeur>2</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>1</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>la balise permet de révéler 2 cases du désert dans chaque direction. Elle est consommée après utilisation.</note>
+	</objet>
+	<objet>
+		<nom>Aqua-splash (démonté)</nom>
+		<image>watergun_opt_part</image>
+		<categorie>Weapon</categorie>
+		<valeur>5</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Aqua-splash (vide)</pour>
+			<avec>Rustine</avec>
+			<avec>Tube en cuivre</avec>
+			<avec>Détonateur compact</avec>
+			<avec>Sac plastique</avec>
+		</utilisation>
+		<note>L'Aqua-splash est une arme à eau de 5 charges, chaque coup tuant un zombie et vidant une charge. Une fois vidé, l'Aqua-splash peut être rempli à la robinetterie ou avec une ration d'eau.</note>
+	</objet>
+	<objet>
+		<nom>Aqua-splash (vide)</nom>
+		<image>watergun_opt_empty</image>
+		<categorie>Weapon</categorie>
+		<valeur>5</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>1</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Aqua-splash (5 charges)</pour>
+			<avec>Ration d'eau</avec>
+		</utilisation>
+		<note>L'Aqua-splash est une arme à eau de 5 charges, chaque coup tuant un zombie et vidant une charge. Une fois vidé, l'Aqua-splash peut être rempli à la robinetterie ou avec une ration d'eau.</note>
+	</objet>
+	<objet>
+		<nom>Aqua-splash (1 charge)</nom>
+		<image>watergun_opt_1</image>
+		<categorie>Weapon</categorie>
+		<valeur>5</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>1</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Aqua-splash (5 charges)</pour>
+			<avec>Ration d'eau</avec>
+		</utilisation>
+		<note>L'Aqua-splash est une arme à eau de 5 charges, chaque coup tuant un zombie et vidant une charge. Une fois vidé, l'Aqua-splash peut être rempli à la robinetterie ou avec une ration d'eau.</note>
+	</objet>
+	<objet>
+		<nom>Aqua-splash (2 charges)</nom>
+		<image>watergun_opt_2</image>
+		<categorie>Weapon</categorie>
+		<valeur>5</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>1</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Aqua-splash (5 charges)</pour>
+			<avec>Ration d'eau</avec>
+		</utilisation>
+		<note>L'Aqua-splash est une arme à eau de 5 charges, chaque coup tuant un zombie et vidant une charge. Une fois vidé, l'Aqua-splash peut être rempli à la robinetterie ou avec une ration d'eau.</note>
+	</objet>
+	<objet>
+		<nom>Aqua-splash (3 charges)</nom>
+		<image>watergun_opt_3</image>
+		<categorie>Weapon</categorie>
+		<valeur>5</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>1</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Aqua-splash (5 charges)</pour>
+			<avec>Ration d'eau</avec>
+		</utilisation>
+		<note>L'Aqua-splash est une arme à eau de 5 charges, chaque coup tuant un zombie et vidant une charge. Une fois vidé, l'Aqua-splash peut être rempli à la robinetterie ou avec une ration d'eau.</note>
+	</objet>
+	<objet>
+		<nom>Aqua-splash (4 charges)</nom>
+		<image>watergun_opt_4</image>
+		<categorie>Weapon</categorie>
+		<valeur>5</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>1</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Aqua-splash (5 charges)</pour>
+			<avec>Ration d'eau</avec>
+		</utilisation>
+		<note>L'Aqua-splash est une arme à eau de 5 charges, chaque coup tuant un zombie et vidant une charge. Une fois vidé, l'Aqua-splash peut être rempli à la robinetterie ou avec une ration d'eau.</note>
+	</objet>
+	<objet>
+		<nom>Aqua-splash (5 charges)</nom>
+		<image>watergun_opt_5</image>
+		<categorie>Weapon</categorie>
+		<valeur>5</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>1</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>L'Aqua-splash est une arme à eau de 5 charges, chaque coup tuant un zombie et vidant une charge. Une fois vidé, l'Aqua-splash peut être rempli à la robinetterie ou avec une ration d'eau.</note>
+	</objet>
+	<objet>
+		<nom>Détonateur compact</nom>
+		<image>deto</image>
+		<categorie>Rsc</categorie>
+		<valeur>2</valeur>
+		<chantiers>1</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Sac plastique + explosif</pour>
+			<avec>Sac en plastique</avec>
+			<avec>Explosifs bruts</avec>
+			<avec>Rustine</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Aqua-splash (vide)</pour>
+			<avec>Aqua-splash (démonté)</avec>
+			<avec>Rustine</avec>
+			<avec>Tube en cuivre</avec>
+			<avec>Sac plastique</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Moteur</pour>
+			<avec>Moteur incomplet</avec>
+			<avec>Poignée de vis et écrous</avec>
+			<avec>Rustine</avec>
+			<avec>Ferraille</avec>
+			<avec>Os humain</avec>
+		</utilisation>
+		<note>Le détonateur intervient dans la construction de certains chantiers (notamment le champs de mine à eau) et dans l'assemblage de certaines armes.</note>
+	</objet>
+	<objet>
+		<nom>Pavés de béton informes</nom>
+		<image>concrete_wall</image>
+		<categorie>Armor</categorie>
+		<valeur>5</valeur>
+		<chantiers>1</chantiers>
+		<pa>0</pa>
+		<defense>1</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>1</arme>
+		<cassable>1</cassable>
+		<maison>0</maison>
+		<encombrant>1</encombrant>
+		<danger>0</danger>
+		<note>Les pavés de béton résultent de l'assemblage d'un sac de ciment avec une ration d'eau. Il ne faut pas hésiter à utiliser de l'eau pour créer des pavés, ceux-ci étant des objets de défense. Les pavés peuvent aussi servir d'arme, et être cassés. Ils ne peuvent alors plus être réparés, et ils ne sont plus considérés comme des objets de défense. Ils sont également nécessaire à la construction de certains chantiers.</note>
+	</objet>
+	<objet>
+		<nom>Paracétoïde 7g</nom>
+		<image>disinfect</image>
+		<categorie>Drug</categorie>
+		<valeur>1</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>1</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>Le paracétoïde est une drogue qui permet de soigner les infections. Consommer deux drogues dans une journée rend dépendant. Il s'gait d'un objet très peu utile.</note>
+	</objet>
+	<objet>
+		<nom>Désherbant Ness-Quick</nom>
+		<image>digger</image>
+		<categorie>Misc</categorie>
+		<valeur>2</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>1</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>Le désherbant permet de déblayer un bâtiment sans dépenser de point d'action. Il est consommé après utilisation et retire entre 2 et 4 paquets de terre.</note>
+	</objet>
+	<objet>
+		<nom>Paquet de chips molles</nom>
+		<image>food_bar1</image>
+		<categorie>Food</categorie>
+		<valeur>3</valeur>
+		<chantiers>0</chantiers>
+		<pa>6</pa>
+		<defense>0</defense>
+		<transformable>1</transformable>
+		<assemblable>0</assemblable>
+		<consommable>1</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Paquet de chips molles</pour>
+			<avec>Fiole de poison</avec>
+		</utilisation>
+		<note>Nourriture basique, qui rend 6 PA lorsqu'elle est consommée et peut être transformée en Bon plat fait maison à l'aide d'une cuisine (amélioration de maison). On en trouve dans le désert et dans les Doggy-bag.</note>
+	</objet>
+	<objet>
+		<nom>Napolitains moisis</nom>
+		<image>food_bar2</image>
+		<categorie>Food</categorie>
+		<valeur>3</valeur>
+		<chantiers>0</chantiers>
+		<pa>6</pa>
+		<defense>0</defense>
+		<transformable>1</transformable>
+		<assemblable>0</assemblable>
+		<consommable>1</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Napolitains moisis</pour>
+			<avec>Fiole de poison</avec>
+		</utilisation>
+		<note>Nourriture basique, qui rend 6 PA lorsqu'elle est consommée et peut être transformée en Bon plat fait maison à l'aide d'une cuisine (amélioration de maison). On en trouve dans le désert et dans les Doggy-bag.</note>
+	</objet>
+	<objet>
+		<nom>Chewing-gums séchés</nom>
+		<image>food_bar3</image>
+		<categorie>Food</categorie>
+		<valeur>3</valeur>
+		<chantiers>0</chantiers>
+		<pa>6</pa>
+		<defense>0</defense>
+		<transformable>1</transformable>
+		<assemblable>0</assemblable>
+		<consommable>1</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Chewing-gums séchés</pour>
+			<avec>Fiole de poison</avec>
+		</utilisation>
+		<note>Nourriture basique, qui rend 6 PA lorsqu'elle est consommée et peut être transformée en Bon plat fait maison à l'aide d'une cuisine (amélioration de maison). On en trouve dans le désert et dans les Doggy-bag.</note>
+	</objet>
+	<objet>
+		<nom>Petits Beurres rances</nom>
+		<image>food_biscuit</image>
+		<categorie>Food</categorie>
+		<valeur>3</valeur>
+		<chantiers>0</chantiers>
+		<pa>6</pa>
+		<defense>0</defense>
+		<transformable>1</transformable>
+		<assemblable>0</assemblable>
+		<consommable>1</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Petits Beurres rances</pour>
+			<avec>Fiole de poison</avec>
+		</utilisation>
+		<note>Nourriture basique, qui rend 6 PA lorsqu'elle est consommée et peut être transformée en Bon plat fait maison à l'aide d'une cuisine (amélioration de maison). On en trouve dans le désert et dans les Doggy-bag.</note>
+	</objet>
+	<objet>
+		<nom>Nouilles chinoises</nom>
+		<image>food_noodles_hot</image>
+		<categorie>Food</categorie>
+		<valeur>3</valeur>
+		<chantiers>0</chantiers>
+		<pa>6</pa>
+		<defense>0</defense>
+		<transformable>1</transformable>
+		<assemblable>0</assemblable>
+		<consommable>1</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Petits Beurres rances</pour>
+			<avec>Fiole de poison</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Nouilles chinoises épicées</pour>
+			<avec>Ration d'eau</avec>
+			<avec>Epices fortes</avec>
+		</utilisation>
+		<note>Nourriture basique, qui rend 6 PA lorsqu'elle est consommée et peut être transformée en Bon plat fait maison à l'aide d'une cuisine (amélioration de maison). On en trouve dans le désert et dans les Doggy-bag. On peut également la transformer en nourriture à 7 PA en l'assemblant avec une ration d'eau et une épice, bien que cela soit fortement déconseillé.</note>
+	</objet>
+	<objet>
+		<nom>Nouilles chinoises épicées</nom>
+		<image>food_noodles_hot</image>
+		<categorie>Food</categorie>
+		<valeur>4</valeur>
+		<chantiers>0</chantiers>
+		<pa>7</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>1</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>Nourriture qui rend 7 PA lorsqu'elle est consommée. Elle résulte de l'assemblage de Nouilles chinoises avec une ration d'eau et des épices.</note>
+	</objet>
+	<objet>
+		<nom>Epices fortes</nom>
+		<image>spices</image>
+		<categorie>Misc</categorie>
+		<valeur>1</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Nouilles chinoises épicées</pour>
+			<avec>Nouilles chinoises</avec>
+			<avec>Ration d'eau</avec>
+		</utilisation>
+		<note>Permet de transformer une nourriture 6 PA en nourriture 7 PA, avec une ration d'eau. L'eau est néanmoins trop précieuse pour être ainsi gaspillée, ce qui prive cet objet de tout intérêt.</note>
+	</objet>
+	<objet>
+		<nom>Petit manche vibrant (déchargé)</nom>
+		<image>vibr_empty</image>
+		<categorie>Misc</categorie>
+		<valeur>3</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Petit manche vibrant (chargé)</pour>
+			<avec>Pile</avec>
+		</utilisation>
+		<note>Assmblée avec une pile, permet de soigner la terreur.</note>
+	</objet>
+	<objet>
+		<nom>Poutre rafistolée</nom>
+		<image>wood_beam</image>
+		<categorie>Rsc</categorie>
+		<valeur>1</valeur>
+		<chantiers>1</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>1</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>1</maison>
+		<encombrant>1</encombrant>
+		<danger>0</danger>
+		<note>La poutre rafistoleé est une des ressource de base du jeu. Elle permet de construire de nombreux chantiers. La poutre s'obtient dans le désert et à l'atelier. Il est préférable de ne pas ramener de poutre lors des expéditions, puisqu'elles peuvent être fabriquées pour 1 PA à l'atelier et qu'elles sont encombrantes. Les poutres peuvent être converties, à l'atelier, en planches tordues.</note>
+	</objet>
+	<objet>
+		<nom>Structures métalliques</nom>
+		<image>metal_beam</image>
+		<categorie>Rsc</categorie>
+		<valeur>1</valeur>
+		<chantiers>1</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>1</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>1</maison>
+		<encombrant>1</encombrant>
+		<danger>0</danger>
+		<note>La structure métallique est une des ressource de base du jeu. Elle permet de construire de nombreux chantiers. La structure métallique s'obtient dans le désert et à l'atelier. Il est préférable de ne pas ramener de structure métallique lors des expéditions, puisqu'elles peuvent être fabriquées pour 1 PA à l'atelier et qu'elles sont encombrantes. Les structure métalliques peuvent être converties, à l'atelier, en ferrailles.</note>
+	</objet>
+	<objet>
+		<nom>Débris métalliques</nom>
+		<image>metal_bad</image>
+		<categorie>Rsc</categorie>
+		<valeur>1</valeur>
+		<chantiers>1</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>1</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>Les débris métallique sont une des ressource de base du jeu. Ils ne sont pas utiles en tant que tels mais ils peuvent être converties en ferrailles pour 1 PA à l'atelier.</note>
+	</objet>
+	<objet>
+		<nom>Souche de bois pourrie</nom>
+		<image>wood_bad</image>
+		<categorie>Rsc</categorie>
+		<valeur>1</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>1</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Torche</pour>
+			<avec>Boite d'allumettes</avec>
+		</utilisation>
+		<utilisation>
+			<pour>Café brûlant</pour>
+			<avec>Cafetière</avec>
+			<avec>Produits pharmaceutiques</avec>
+			<avec>Pile</avec>
+		</utilisation>
+		<note>Les souches sont une des ressource de base du jeu. Elles ne sont pas utiles en tant que telles mais elles peuvent être converties en planches tordues pour 1 PA à l'atelier.</note>
+	</objet>
+	<objet>
+		<nom>Scie à métaux</nom>
+		<image>saw_tool</image>
+		<categorie>Misc</categorie>
+		<valeur>5</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>La scie est un des objets les plus importants du jeu. Elle permet en effet de réduire de 1 PA les transformations effectuées à l'atelier. La scie ne s'utilise pas : il suffit de l'avoir dans son inventaire au moment de réaliser la transformation. Une seule scie par ville est nécessaire. On trouve dans le désert des scies déjà assemblées ou à assembler (avec une poignée de vis et une rustine).</note>
+	</objet>
+	<objet>
+		<nom>Tréteau</nom>
+		<image>trestle</image>
+		<categorie>Armor</categorie>
+		<valeur>5</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>1</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>1</encombrant>
+		<danger>0</danger>
+		<note>Le tréteau est un objet de défense, à ramener en priorité.</note>
+	</objet>
+	<objet>
+		<nom>Table Järpen</nom>
+		<image>table</image>
+		<categorie>Armor</categorie>
+		<valeur>5</valeur>
+		<chantiers>1</chantiers>
+		<pa>0</pa>
+		<defense>1</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>1</encombrant>
+		<danger>0</danger>
+		<note>La table Järpen est un objet de défense, à ramener en priorité. Elle intervient aussi dans la construction du registre de chantier.</note>
+	</objet>
+	<objet>
+		<nom>Poudre-Comète brute</nom>
+		<image>powder</image>
+		<categorie>Misc</categorie>
+		<valeur>1</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Bombe Pulvérine</pour>
+			<avec>Rustine</avec>
+			<avec>Sac plastique</avec>
+		</utilisation>
+		<note>La poudre-comète permet, avec un sac plastique, de fabriquer une bombe pulvérine.</note>
+	</objet>
+	<objet>
+		<nom>Bombe Pulvérine</nom>
+		<image>flash</image>
+		<categorie>Misc</categorie>
+		<valeur>1</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>1</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>La bombe pulvérine, résultant de l'assemblage d'une poudre-comète brute et d'un sac plastique, permet pendant 5 minutes, lorsqu'elle est utilisée, de quitter une case contrôlée par les zombies.</note>
+	</objet>
+	<objet>
+		<nom>Plaque de bois solide</nom>
+		<image>wood_plate</image>
+		<categorie>Armor</categorie>
+		<valeur>5</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>1</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>1</encombrant>
+		<danger>0</danger>
+		<note>La plaque de bois solide est un objet de défense, à ramener en priorité. Elle résulte de l'assemblage d'une planche tordue avec un morceau de caisse.</note>
+	</objet>
+	<objet>
+		<nom>Morceau de caisse</nom>
+		<image>wood_plate_part</image>
+		<categorie>Armor</categorie>
+		<valeur>5</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>1</encombrant>
+		<danger>0</danger>
+		<note>Permet de fabriquer une Plaque de bois solide (objet de défense).</note>
+		<utilisation>
+			<pour>Planque de bois solide</pour>
+			<avec>Planche tordue</avec>
+		</utilisation>
+	</objet>
+	<objet>
+		<nom>Brico'Facile</nom>
+		<image>repair_one</image>
+		<categorie>Misc</categorie>
+		<valeur>2</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>1</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>Le brico'facile permet, pour 1 PA, de réparer un objet cassé (sauf exception).</note>
+	</objet>
+	<objet>
+		<nom>Four cancérigène</nom>
+		<image>machine_2</image>
+		<categorie>Furniture</categorie>
+		<valeur>4</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>1</arme>
+		<cassable>1</cassable>
+		<maison>1</maison>
+		<encombrant>1</encombrant>
+		<danger>0</danger>
+		<note>Le four est une arme très efficace et relativement peu coûteuse (une fois cassé, le four peut être réparé). Cependant, c'est un objet encombrant : on le ramène éventuellement en ville, mais on ne sert pas avec. Il permet de construire la cuisine niveau 3.</note>
+	</objet>
+	<objet>
+		<nom>Paquet de cigarettes entamé</nom>
+		<image>cigs</image>
+		<categorie>Misc</categorie>
+		<valeur>2</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>1</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<avec>Boîte d'allumettes</avec>
+		</utilisation>
+		<note>Le paquet de cigarettes, assemblé avec une boîte d'allumettes, permet de soigner la terreur. Il est consommé après utilisation.</note>
+	</objet>
+	<objet>
+		<nom>Calibrateur PDTT Mark II</nom>
+		<image>pilegun_upkit</image>
+		<categorie>Misc</categorie>
+		<valeur>1</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Lance-Pile Mark II (chargé)</pour>
+			<avec>Poignée de vis et écrous</avec>
+			<avec>Lance-Pile 1-PDTG (vide)</avec>
+			<avec>Rustine</avec>
+			<avec>Composant électronique</avec>
+		</utilisation>
+		<note>Permet d'améliorer les lances-piles. Objet inutile.</note>
+	</objet>
+	<objet>
+		<nom>Appareil électronique en panne</nom>
+		<image>electro_box</image>
+		<categorie>Misc</categorie>
+		<valeur>4</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>1</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>L'appareil électronique en panne n'a aucune utilité en soi. Il se désassemble cependant, à l'atelier, en poignées de vis, ferraille, débris métallique, etc.</note>
+	</objet>
+	<objet>
+		<nom>Sac de ciment</nom>
+		<image>concrete</image>
+		<categorie>Misc</categorie>
+		<valeur>5</valeur>
+		<chantiers>1</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>1</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Pavés de béton informes</pour>
+			<avec>Ration d'eau</avec>
+		</utilisation>
+		<note>Le ciment est un des objets les plus importants. Il intervient dans la construction de l'atelier, le premier jour de la ville. Il intervient par la suite, une fois combiné avec une ration d'eau, dans la création de blocs de béton informes, qui sont des objets de défense. On en trouve beaucoup dans les tranchées (bâtiments).</note>
+	</objet>
+	<objet>
+		<nom>Gros chat mignon</nom>
+		<image>pet_cat</image>
+		<categorie>Weapon</categorie>
+		<valeur>4</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>1</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>1</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>Le chat est une arme efficace. Il a 20% de chances, à chaque utilisation, d'être consommé (il s'enfuit). C'est également un objet de décoration. Enfin, il peut être découpé à la boucherie pour donner 3 morceaux de viande à 7PA.</note>
+	</objet>
+	<objet>
+		<nom>Chaîne de porte + cadenas</nom>
+		<image>lock</image>
+		<categorie>Misc</categorie>
+		<valeur>2</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>1</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>Le cadenas est un objet à placer dans son coffre personnel : il protège alors contre le vol. A noter que l'on ne peut voler que les tentes, taudis et baraques.</note>
+	</objet>
+	<objet>
+		<nom>Grosse chaîne rouillée</nom>
+		<image>chain</image>
+		<categorie>Weapon</categorie>
+		<valeur>5</valeur>
+		<chantiers>1</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>1</arme>
+		<cassable>1</cassable>
+		<maison>1</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>La chaîne est un objet extrêmement utile, mais également dangereux. La chaîne est une arme excellente, qui a une faible chance de casser à chaque utilisation, et une forte chance de tuer 1 zombie. Une fois cassée, elle peut être réparée. La chaîne intervient également dans la construction de la potence, ce qui est son principal intérêt.</note>
+	</objet>
+	<objet>
+		<nom>Cochon malodorant</nom>
+		<image>pet_pig</image>
+		<categorie>Weapon</categorie>
+		<valeur>3</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>1</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>1</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>1</encombrant>
+		<danger>0</danger>
+		<note>Le cochon est un objet encombrant qui, une fois découpé à la boucherie, donne 4 morceaux de viande indéfinissable.</note>
+	</objet>
+	<objet>
+		<nom>Devastator incomplet</nom>
+		<image>big_pgun_part</image>
+		<categorie>Weapon</categorie>
+		<valeur>1</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>1</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Devastator (chargé)</pour>
+			<avec>Courroie</avec>
+			<avec>Poignée de vis et écrous</avec>
+			<avec>Pile</avec>
+		</utilisation>
+		<note>Le devastator est une arme de la série de lances-piles.</note>
+	</objet>
+	<objet>
+		<nom>Boîte en métal</nom>
+		<image>chest</image>
+		<categorie>Misc</categorie>
+		<valeur>3</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>1</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>1</encombrant>
+		<danger>0</danger>
+		<note>La boîte en métal est un objet encombrant qui contient toujours un objet intéressant (mais pas d'arme rare, contrairement à la grosse boîte en métal). On y trouve de l'alcool, des drogues et des gbandages, principalement. Elle s'ouvre avec un tournevis, un couteau-suisse, etc.</note>
+	</objet>
+	<objet>
+		<nom>Jerrycan</nom>
+		<image>jerrycan</image>
+		<categorie>Misc</categorie>
+		<valeur>5</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>1</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Pompe à Jerrycan (prête)</pour>
+			<avec>Rustine</avec>
+			<avec>Pompe à Jerrycan (démontée)</avec>
+		</utilisation>
+		<note>Le jerrycan est un des objets les plus importants du jeu. Il permet de rajouter de l'eau dans le puits (entre 6 et 8 rations), grâce à un micropur effeverscent (faible rendement) ou au purificateur (chantier ; fort rendement). Les jerrycan se trouvent dans le désert, et plus particulièrement dans les silo et les pompes hydrauliques (bâtiments).</note>
+	</objet>
+	<objet>
+		<nom>Jeu de cartes incomplet</nom>
+		<image>cards</image>
+		<categorie>Misc</categorie>
+		<valeur>3</valeur>
+		<chantiers>0</chantiers>
+		<pa>2</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>1</danger>
+		<note>Le jeu de carte s'utilise une fois par jour. Selon la carte que l'on tire, il ne se passe rien (la plupart du temps), on gagne 1 PA (parfois), ou on est terrorisé (rarement). Ils portent le nombre de PA à 7 s'ils sont utilisés quand on a 6 PA. En raison du danger inhérents à la terreur, il ne faut pas utiliser les cartes dans le désert.</note>
+	</objet>
+	<objet>
+		<nom>Dés</nom>
+		<image>dice</image>
+		<categorie>Misc</categorie>
+		<valeur>3</valeur>
+		<chantiers>0</chantiers>
+		<pa>2</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>Les dés s'utilisent une fois par jour. Selon le score obtenu, il peuvent rendre 1 PA. Ils portent le nombre de PA à 7 s'ils sont utilisés quand on a 6 PA.</note>
+	</objet>
+	<objet>
+		<nom>Kit de bricolage</nom>
+		<image>repair_kit</image>
+		<categorie>Misc</categorie>
+		<valeur>4</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>Permet de réparer un objet cassé pour 1 PA. Après utilisation, cet objet n'est pas consommé, contrairement au Brico'Facile, mais cassé. Il est alors réparable à l'atelier pour 1 PA.</note>
+	</objet>
+	<objet>
+		<nom>Viande Humaine</nom>
+		<image>hmeat</image>
+		<categorie>Food</categorie>
+		<valeur>4</valeur>
+		<chantiers>1</chantiers>
+		<pa>6</pa>
+		<defense>0</defense>
+		<transformable>1</transformable>
+		<assemblable>0</assemblable>
+		<consommable>1</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>La viande humaine est une nourriture qui rend 6 PA. Elle donne également le pictogramme "cannibale". Elle intervient également dans la construction du piège à loups (chantier temporaire). On en trouve parfois dans le désert (bâtiment Fast-Food, par exemple), mais la principale source de viande humaine reste le Cremato-Cue (chantier).</note>
+	</objet>
+	<objet>
+		<nom>Poule</nom>
+		<image>pet_chick</image>
+		<categorie>Weapon</categorie>
+		<valeur>3</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>1</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>1</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>La poule est un animal qui, une fois découpé à l'atelier, produit 2 viandes indéfinissables.</note>
+	</objet>
+	<objet>
+		<nom>Rat géant</nom>
+		<image>pet_rat</image>
+		<categorie>Weapon</categorie>
+		<valeur>3</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>1</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>1</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>La rat géant est un animal qui, une fois découpé à l'atelier, produit 3 viandes indéfinissables.</note>
+	</objet>
+	<objet>
+		<nom>Mécanisme</nom>
+		<image>mecanism</image>
+		<categorie>Misc</categorie>
+		<valeur>4</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>1</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>Le mécanisme n'a aucune utilité en soi. Il se désassemble cependant, à l'atelier, en poignées de vis, ferraille, débris métallique, etc.</note>
+	</objet>
+	<objet>
+		<nom>Radius mark II</nom>
+		<image>radius_mk2</image>
+		<categorie>Misc</categorie>
+		<valeur>3</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<avec>Pile</avec>
+		</utilisation>
+		<note>La balise mark II permet de révéler 2 cases autour de la case sur laquelle elle est utilisée dans le désert. Son activation nécessite une pile. Elle peut être utilisée plusieurs fois avant de se désactiver. Contrairement à la Balise radius, elle n'est pas consommée après utilisation.</note>
+	</objet>
+	<objet>
+		<nom>Vieille machine à laver</nom>
+		<image>machine_1</image>
+		<categorie>Misc</categorie>
+		<valeur>3</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>1</arme>
+		<cassable>1</cassable>
+		<maison>1</maison>
+		<encombrant>1</encombrant>
+		<danger>0</danger>
+		<note>La machine à laver est un objet encombrant qui peut être utilisé comme arme (très faible rendement), cassée et réparée. C'est aussi un objet de décoration et elle intervient dans la construction du laboratoire (amélioration de maison).</note>
+	</objet>
+	<objet>
+		<nom>Meuble en kit</nom>
+		<image>deco_box</image>
+		<categorie>Misc</categorie>
+		<valeur>4</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>1</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>1</encombrant>
+		<danger>0</danger>
+		<note>Le meuble en kit est un objet encombrant qui, une fois désassemblé à l'atelier, donne un objet à base de bois. On les ramène en général dans l'espoir d'obtenir une table Järpen ou une plaque de bois solide. Il produit également des objets de déco, comme la chaise Ektörp-Gluten.</note>
+	</objet>
+	<objet>
+		<nom>Os charnu</nom>
+		<image>bone_meat</image>
+		<categorie>Food</categorie>
+		<valeur>4</valeur>
+		<chantiers>1</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>1</transformable>
+		<assemblable>1</assemblable>
+		<consommable>1</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>1</danger>
+		<note>L'os charnu est un objet particulier, qui apparaît sur une case dans le désert à la mort d'un citoyen. Consommé, l'os charnu a une chance d'infecter son consommateur. Il peut cependant être converti à la cuisine (amélioration de maison) en bon plat fait maison, ce qui élimine le risque d'infection. Il intervietn aussi dans la construction des appâts (chantier temporaire).</note>
+	</objet>
+	<objet>
+		<nom>Serpent de 2 mètres</nom>
+		<image>pet_snake</image>
+		<categorie>Misc</categorie>
+		<valeur>4</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>1</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>1</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>1</encombrant>
+		<danger>0</danger>
+		<note>Le cochon est un objet encombrant qui, une fois découpé à la boucherie, donne 4 morceaux de viande à 7 PA.</note>
+	</objet>
+	<objet>
+		<nom>Vodka Marinostov</nom>
+		<image>vodka</image>
+		<categorie>Drugs</categorie>
+		<valeur>4</valeur>
+		<chantiers>0</chantiers>
+		<pa>6</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>1</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>1</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>La vodka est un alcool. L'alcool permet de gagner 6 PA. Cependant, on ne peut consommer d'alcool qu'une fois tous les deux jours. Le jour de la consommation, on gagne l'état "ivre" et, le lendemain, l'étant "gueule de bois". La vodka intervient également dans la construction du laboratoire (amélioration de maison).</note>
+	</objet>
+	<objet>
+		<nom>Debout-les-Morts</nom>
+		<image>rhum</image>
+		<categorie>Drugs</categorie>
+		<valeur>4</valeur>
+		<chantiers>0</chantiers>
+		<pa>6</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>1</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>Le rhum Debout-Les_morts est un alcool. L'alcool permet de gagner 6 PA. Cependant, on ne peut consommer d'alcool qu'une fois tous les deux jours. Le jour de la consommation, on gagne l'état "ivre" et, le lendemain, l'étant "gueule de bois".</note>
+	</objet>
+	<objet>
+		<nom>Doggy-bag</nom>
+		<image>food_bag</image>
+		<categorie>Food</categorie>
+		<valeur>3</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>1</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>Le Doggy-bag est un conteneur de nourriture à 6 PA.</note>
+	</objet>
+	<objet>
+		<nom>Sac supplémentaire</nom>
+		<image>bag</image>
+		<categorie>Misc</categorie>
+		<valeur>5</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>0</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>Le sac supplémentaire permet de rajouter un emplacement dans l'inventaire d'un citoyen. On ne peut avoir qu'un seul sac à la fois, et la possession d'un sac exclut la possession du caddie. Cependant, on peut avoir une ceinture et un sac en même temps. On ne peut déposer un sac en banque qu'après avoir vidé son inventaire. Cependant, déposer un sac dans le désert a pour effet de vider automatiquement l'inventaire.</note>
+	</objet>
+	<objet>
+		<nom>Cyanure</nom>
+		<image>cyanure</image>
+		<categorie>Misc</categorie>
+		<valeur>2</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>1</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>1</danger>
+		<utilisation>
+			<pour>Cafetière incomplète</pour>
+			<avec>Ferraille</avec>
+			<avec>Poignée de vis et écrous</avec>
+			<avec>Rustine</avec>
+			<avec>Tube de cuivre</avec>
+			<avec>Composant électronique</avec>
+		</utilisation>
+		<note>Le cyanure tue le citoyen qui le consomme. Ne pas le garder sur toi trop longtemps, au cas où la souris dérape...</note>
+	</objet>
+	<objet>
+		<nom>Pim's périmé</nom>
+		<image>food_pims</image>
+		<categorie>Food</categorie>
+		<valeur>3</valeur>
+		<chantiers>0</chantiers>
+		<pa>6</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>1</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<utilisation>
+			<pour>Pim's périmé'</pour>
+			<avec>Fiole de poison</avec>
+		</utilisation>
+		<note>Nourriture basique, qui rend 6 PA lorsqu'elle est consommée et peut être transformée en Bon plat fait maison à l'aide d'une cuisine (amélioration de maison). On en trouve dans le désert et dans les Doggy-bag.</note>
+	</objet>
+	<objet>
+		<nom>Café brûlant</nom>
+		<image>coffee</image>
+		<categorie>Drugs</categorie>
+		<valeur>5</valeur>
+		<chantiers>0</chantiers>
+		<pa>4</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>1</consommable>
+		<utilisable>1</utilisable>
+		<arme>0</arme>
+		<cassable>0</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>La café est produit à l'aide d'une cafetière, d'une pile, d'un produit pharmaceutique et d'une souche de bois pourrie. Il permet de gagner 4 PA. Contrairement aux autres sources de PA, on peut en consommer plusieurs dans une journée, sans contre-partie négative. Contrairement aux drogues, il ne produit pas de dépendance. Il fait cependant office de dose quotidienne lorsqu'on est dépendant.</note>
+	</objet>
+	<objet>
+		<nom>Cutter</nom>
+		<image>cutter</image>
+		<categorie>Weapons</categorie>
+		<valeur>2</valeur>
+		<chantiers>0</chantiers>
+		<pa>0</pa>
+		<defense>0</defense>
+		<transformable>0</transformable>
+		<assemblable>0</assemblable>
+		<consommable>0</consommable>
+		<utilisable>1</utilisable>
+		<arme>1</arme>
+		<cassable>1</cassable>
+		<maison>0</maison>
+		<encombrant>0</encombrant>
+		<danger>0</danger>
+		<note>Le cutter est une arme peu efficace.</note>
+	</objet>
+</objets> 
